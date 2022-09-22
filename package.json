@@ -1,0 +1,30 @@
+{
+  "name": "fprot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "types/fprot.d.ts",
+  "files": [
+    "lib/",
+    "types/"
+  ],
+  "scripts": {
+    "test": "jest unit",
+    "types": "tsc -p types/tsconfig.json",
+    "lint": "eslint . && prettier -c \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.ts\"",
+    "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.ts\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node18": "^1.0.1",
+    "@types/node": "^18.7.18",
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.3"
+  }
+}
