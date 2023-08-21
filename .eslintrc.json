@@ -5,6 +5,9 @@
     "node": true
   },
   "parserOptions": {
-    "ecmaVersion": "latest"
+    "ecmaVersion": "latest",
+    "sourceType": "module",
+    "semi": false,
+    "no-unexpected-multiline": true
   }
 }

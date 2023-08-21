@@ -2,6 +2,7 @@
   "name": "fprot",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "types": "types/fprot.d.ts",
   "files": [
